@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font: normal 300 16px 'Nunito', sans-serif;
-  background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  /* background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center; */
   color: #0A0A0A;
 }
 a:focus,
@@ -14,7 +14,7 @@ a:hover {
   outline: none;
 }
 .layer {
-  background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  /* background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center; */
   z-index: 1;
   height: 100%;
   -webkit-animation: move-twink-back 200s linear infinite;

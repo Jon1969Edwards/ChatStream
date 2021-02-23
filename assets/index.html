@@ -16,11 +16,11 @@
   </head>
 
     <body id="page-top">
-
-      <div id="content"></div>
-      <div style="position:absolute;left:0px;top:90px;width:320px;border:1px #000000 solid;">
-          <div id="Route"></div> 
+      <div style="position:absolute;left:0px;top:90px;width:300px;border:1px #000000 solid;">
+        <div id="Route"></div> 
       </div>
+      <div id="content"></div>
+      
 
       <script id="requester-template" type="text/x-handlebars-template">
         <table>
@@ -50,27 +50,24 @@
       </script>
 
       <script id="choice-template" type="text/x-handlebars-template">
-      <div style="position:absolute;left:0px;top:40px;border:1px #000000 solid;">
-          <select name="Combobox1" size="1" id="Combobox1" onchange="showActive(value);return false;"style="left:0px;top:27px;width:100%;height:100%;border-width:0px;font-family:Courier New;font-size:13px;">
-              <option value="Case">Case</option>
-              <option value="E-Pocket">E-Pocket</option>
-              <option value="Ticket-ETA">Ticket-ETA</option>
-              <option value="BugReport">BugReport</option>
-          </select>
-      </div>
-      <div style="position:absolute;left:0px;top:15px;">
-          <p>Kind of?</p>
-      </div>
-    </script>
+        <div style="position:absolute;left:0px;top:40px;border:1px #000000 solid;">
+            <select name="Combobox1" size="1" id="Combobox1" onchange="showActive(value);return false;"style="left:0px;top:27px;width:100%;height:100%;border-width:0px;font-family:Courier New;font-size:13px;">
+                <option value="Case">Case</option>
+                <option value="E-Pocket">E-Pocket</option>
+                <option value="Ticket-ETA">Ticket-ETA</option>
+                <option value="BugReport">BugReport</option>
+            </select>
+        </div>
+        <div style="position:absolute;left:0px;top:15px;">
+            <p>Kind of?</p>
+        </div>
+      </script>
 
       <script src="https://cdn.jsdelivr.net/npm/handlebars@4.3.3/dist/handlebars.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
       <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
       <script src="main.js"></script>
       <!-- <div id="content"></div> -->
-      <div style="position:absolute;left:0px;top:90px;width:320px;border:1px #000000 solid;">
-          <div id="Route"></div>
-      </div>
 
       <div class="layer">
         <div id="page" class="container col-sm-offset-3 col-sm-6 text-center">
@@ -83,6 +80,7 @@
           <a class="page-scroll" href="#page-top"><button id="2" type="button"></button></a>
         </div>
       </div>
+
       <!-- <footer>
         <a href="https://mysite.github.io/support" target="_blank">Report bugs</a>
       </footer>   -->
