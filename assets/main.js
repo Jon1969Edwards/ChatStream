@@ -27,6 +27,11 @@ function requestUserInfo(client, id) {
   );
 }
 
+function readJson(Choice) {
+   addTags('Choice');
+   
+  }
+
 function showInfo(data) {
   var requester_data = {
     'name': data.user.name,
@@ -52,10 +57,10 @@ function formatDate(date) {
   return date;
 }
 
-function showError() {
+function showError(response) {
   var error_data = {
-    'status': 404,
-    'statusText': 'Not found'
+    'status': response.status,
+    'statusText': response.statusText
   };
   var source = $("#error-template").html();
   var template = Handlebars.compile(source);
@@ -63,7 +68,40 @@ function showError() {
   $("#content").html(html);
 }
 
+function showChoice() {
+    var source = $("#choice-template").html();
+    var template = Handlebars.compile(source);
+    $("#Route").html(template);
+   }
+  
+  function showActive(Choice) {
+  
+    if (Choice == "BugReport") {
+    showBugReport(Choice);
+    } else {
+    addTags(Choice);
+    var data = {'Question': Choice};
+    var source = $("#activestream-template").html();
+    var template = Handlebars.compile(source);
+    var html = template(data);
+    $("#Route").html(html);
+    }
+  }
 
+  function showBugReport(Choice) {
+    addTags(Choice);
+    client.invoke('resize', { width: '320', height: '4000px' });
+    var source = $("#bugreport-template").html();
+    var template = Handlebars.compile(source);
+    $("#Route").html(template);
+  }
+  
+    function addTags(Tag) {
+      client.invoke("ticket.tags.add", Tag);
+  }  
+  
+
+/////////////////// JSON story JavaScript \\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 $(document).ready(function() {
   'use strict';
