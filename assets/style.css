@@ -28,12 +28,13 @@ a:hover {
   from {background-position:0 0;}
   to {background-position:-10000px 5000px;}
 }
+
 button {
   display: block;
   padding: 2px 20px;
   margin: 20px auto;
   border: 0;
-  border-radius: 20px;
+  border-radius: 10px;
   letter-spacing: 1px;
   color: #F2F2F2;
   outline: none;
@@ -55,7 +56,7 @@ button:hover {
 }
 #header {
   margin: 0 -15px;
-  padding: 25px 15px 35px;
+  padding: 5px 75px 5px;
   font-family: 'Revalia', sans-serif;
   color: #F2F2F2;
   filter: hue-rotate(0deg);
