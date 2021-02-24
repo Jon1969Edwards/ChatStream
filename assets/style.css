@@ -33,7 +33,7 @@ button {
   padding: 2px 20px;
   margin: 20px auto;
   border: 0;
-  border-radius: 2px;
+  border-radius: 20px;
   letter-spacing: 1px;
   color: #F2F2F2;
   outline: none;
@@ -59,7 +59,7 @@ button:hover {
   font-family: 'Revalia', sans-serif;
   color: #F2F2F2;
   filter: hue-rotate(0deg);
-  background: linear-gradient(45deg,#5A0053,#005A21);
+  background: linear-gradient(45deg,#23caa3,#f50829);
   animation: hue 10s infinite linear;
   -webkit-animation: hue 10s infinite linear;
 }

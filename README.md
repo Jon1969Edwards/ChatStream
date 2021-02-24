@@ -1,14 +1,16 @@
-# App name
+# Chatstream
 
-[brief description of the app]
+A scripting app for Zendesk that will guide you through a series of questions and answers from a JSON file depending on clients issues.
 
-### The following information is displayed:
+Please follow ['Installing and using the Zendesk apps tools'](https://develop.zendesk.com/hc/en-us/articles/360001075048-Installing-and-using-the-Zendesk-apps-tools) before using Chatsream.
 
-* info1
-* info2
-* info3
+### Uses the following:
 
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
+* HTML
+* JavaScript
+* CSS
+* Ruby 2.3.3
 
-### Screenshot(s):
-[put your screenshots down here.]
+
+<!-- ### Screenshot(s):
+[put your screenshots down here.] -->

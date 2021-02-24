@@ -6,6 +6,7 @@
         "text": "Can the player log in the game...</strong>",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -15,6 +16,7 @@
         "text":  "does the player want to remove the Application",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe?",
         "display": ""
     },
    
@@ -24,6 +26,17 @@
         "text":  "is the recovery code available",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe?",
+        "display": ""
+    },
+
+    {
+        "story": "03",
+        "image": "",
+        "text":  "This is a test for button3 #1",
+        "button1": "Yes",
+        "button2": "No",
+        "button3": "Maybe?",
         "display": ""
     },
 
@@ -46,6 +59,16 @@
     },
 
     {
+        "story": "013",
+        "image": "",
+        "text":  "This is a test for button3 #2",
+        "button1": "Yes",
+        "button2": "No",
+        "button3": "Maybe?",
+        "display": ""
+    },
+
+    {
         "story": "021",
         "image": "",
         "text":  "provide supportcase  help.",
@@ -60,6 +83,16 @@
         "text":  "guide through the reset process",
         "button1": "Yes",
         "button2": "No",
+        "display": ""
+    },
+
+    {
+        "story": "023",
+        "image": "",
+        "text":  "This is a test for button3 #3",
+        "button1": "Yes",
+        "button2": "No",
+        "button3": "Maybe?",
         "display": ""
     },
 
@@ -82,6 +115,16 @@
     },
 
     {
+        "story": "0113",
+        "image": "",
+        "text":  "This is a test for button3 #4",
+        "button1": "Yes",
+        "button2": "No",
+        "button3": "Maybe?",
+        "display": ""
+    },
+
+    {
         "story": "0121",
         "image": "",
         "text":  "appologize, recommend to wait for support answer",
@@ -96,6 +139,16 @@
         "text":  "finsih the chat friendly",
         "button1": "Yes",
         "button2": "No",
+        "display": ""
+    },
+
+    {
+        "story": "0123",
+        "image": "",
+        "text":  "This is a test for button3 #5",
+        "button1": "Yes",
+        "button2": "No",
+        "button3": "Maybe?",
         "display": ""
     },
 
@@ -118,6 +171,16 @@
     },
 
     {
+        "story": "0213",
+        "image": "",
+        "text":  "This is a test for button3 #6",
+        "button1": "Yes",
+        "button2": "No",
+        "button3": "Maybe?",
+        "display": ""
+    },
+
+    {
         "story": "0221",
         "image": "",
         "text":  "13",
@@ -132,6 +195,16 @@
         "text":  "14",
         "button1": "Yes",
         "button2": "No",
+        "display": ""
+    },
+
+    {
+        "story": "0223",
+        "image": "",
+        "text":  "This is a test for button3 #7",
+        "button1": "Yes",
+        "button2": "No",
+        "button3": "Maybe?",
         "display": ""
     }
 ]

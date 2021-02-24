@@ -125,7 +125,8 @@ $(document).ready(function() {
       $('#story').html(story[0].text);
       $('#1').html(story[0].button1);
       $('#2').html(story[0].button2);
-      $('#1,#2').css('display',story[0].display);
+      $('#3').html(story[0].button3);
+      $('#1,#2,#3').css('display',story[0].display);
       // COUNTER
       var start = 0;
       // CHOICE 1
@@ -143,12 +144,13 @@ $(document).ready(function() {
             $('#story').html(story[i].text);
             $('#1').html(story[i].button1);
             $('#2').html(story[i].button2);
-            $('#1,#2').css('display',story[i].display);
+            $('#2').html(story[i].button3);
+            $('#1,#2,#3').css('display',story[i].display);
             return;
           } else {
           }
         }
-      });
+      });// END CHOICE 1
       // CHOICE 2
       $('#2').click(function() {
         // USE THE COUNTER FOR CHOICE 2
@@ -164,12 +166,35 @@ $(document).ready(function() {
             $('#story').html(story[i].text);
             $('#1').html(story[i].button1);
             $('#2').html(story[i].button2);
-            $('#1,#2').css('display',story[i].display);
+            $('#3').html(story[i].button3);
+            $('#1,#2,#3').css('display',story[i].display);
             return;
           } else {
           }
         }
-      }); // END CHOICE 2
+      });// END CHOICE 2
+      // CHOICE 3
+      $('#3').click(function() {
+        // USE THE COUNTER FOR CHOICE 3
+        var x = (start + '3');
+        for (var i = 0; i < story.length; i++ ) {
+          if ( x === story[i].story) {
+            start = story[i].story;   
+            if ( story[i].image === '') {
+              $('#image').attr('src',story[0].image);
+            } else {
+              $('#image').attr('src',story[i].image);        
+            }        
+            $('#story').html(story[i].text);
+            $('#1').html(story[i].button1);
+            $('#2').html(story[i].button2);
+            $('#3').html(story[i].button3);
+            $('#1,#2,#3').css('display',story[i].display);
+            return;
+          } else {
+          }
+        }
+      });// END CHOICE 3
     } // END SUCCESS GETTING JSON FILE
   }); // END GET JSON FILE
 }); // END JQUERY
