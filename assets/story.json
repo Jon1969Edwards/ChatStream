@@ -41,11 +41,32 @@
     },
 
     {
+        "story": "04",
+        "image": "",
+        "text":  "does the player want to remove the Application 4",
+        "button1": "Yes",
+        "button2": "No",
+        "button3": "Maybe?",
+        "display": ""
+    },
+
+    {
+        "story": "05",
+        "image": "",
+        "text":  "does the player want to remove the Application 5",
+        "button1": "Yes",
+        "button2": "No",
+        "button3": "Maybe?",
+        "display": ""
+    },
+
+    {
         "story": "011",
         "image": "",
         "text":  "recommend a supportcase provide the supporcase link",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -55,6 +76,7 @@
         "text":  "request the supporcase information for the ticket",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -74,6 +96,7 @@
         "text":  "provide supportcase  help.",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -83,6 +106,7 @@
         "text":  "guide through the reset process",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -102,6 +126,7 @@
         "text":  "E-Pocket sucessfully removed ?",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -111,6 +136,7 @@
         "text":  "ask if more help is needed.",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -130,6 +156,7 @@
         "text":  "appologize, recommend to wait for support answer",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -139,6 +166,7 @@
         "text":  "finsih the chat friendly",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -158,6 +186,7 @@
         "text":  "11",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -167,6 +196,7 @@
         "text":  "12",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -186,6 +216,7 @@
         "text":  "13",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 
@@ -195,6 +226,7 @@
         "text":  "14",
         "button1": "Yes",
         "button2": "No",
+        "button3": "Maybe",
         "display": ""
     },
 

@@ -115,7 +115,7 @@ $(document).ready(function() {
   });
   // GET JSON FILE
   $.ajax({
-    url: "story1.json",
+    url: "story.json",
     dataType: "text",
     success: function(data) {
       // PARSE JSON FILE
